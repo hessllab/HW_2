@@ -1,0 +1,389 @@
+Received: from wvucommon9b.wvu.edu
+	by WVUGW14.wvu.edu; Fri, 28 Mar 2003 12:15:59 -0500
+Received: from mx3.wvu.edu ([157.182.140.92])
+ by wvucommon9b.wvu.edu (NAVGW 2.5.2.9) with SMTP id M2003032812155912164
+ for <amy.hessl@mail.wvu.edu>; Fri, 28 Mar 2003 12:15:59 -0500
+Received: from onyx.geo.wvu.edu (www.geo.wvu.edu [157.182.136.22])
+	by mx3.wvu.edu (8.12.8+Sun/8.12.8) with ESMTP id h2SHFHS5008140
+	for <amy.hessl@mail.wvu.edu>; Fri, 28 Mar 2003 12:15:17 -0500 (EST)
+Received: by www.geo.wvu.edu with Internet Mail Service (5.5.2448.0)
+	id <H5RGL4XW>; Fri, 28 Mar 2003 12:15:27 -0500
+Message-ID: <BEFFC1D00334D511BC0F009027D614F41894DE@www.geo.wvu.edu>
+From: "Doner, Nicholas" <ndoner@GEO.WVU.edu>
+To: "'Amy Hessl '" <Amy.Hessl@mail.wvu.edu>
+Subject: 1301 core measurements
+Date: Fri, 28 Mar 2003 12:15:24 -0500
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2448.0)
+Content-Type: multipart/mixed;
+	boundary="----_=_NextPart_000_01C2F54D.A095C232"
+X-MailScanner: Found to be clean
+
+This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: text/plain;
+	charset="iso-8859-1"
+
+
+ Dr. Hessl, 
+Attached are the notepad documents that you requested.  
+Nicholas
+
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130101A.txt"
+Content-Disposition: attachment;
+	filename="130101A.txt"
+
+130101A 1954    54    56    84    80    24    32
+130101A 1960    30    44   130   218   206   236   170   232   258   326
+130101A 1970   388   168   144   144   152   282   226   228   190   196
+130101A 1980   188   216   164   126    50    86    74   102   128   132
+130101A 1990    86    50   144    84    70    68    78    50    70    70
+130101A 2000    62    66    40 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130101B.txt"
+Content-Disposition: attachment;
+	filename="130101B.txt"
+
+130101B 1949    24
+130101B 1950    46    38    86    84   124    66    56    52    72    66
+130101B 1960    70    78    72    42    78    72   138   188   230   246
+130101B 1970   270   208   216   162   136   376   258   190   142   148
+130101B 1980   164   184   112   176   164   124    52   110   212   110
+130101B 1990   116    72   114    82    60    54    42    40    34    68
+130101B 2000    36    48    96 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130102A.txt"
+Content-Disposition: attachment;
+	filename="130102A.txt"
+
+130102A 1909   136
+130102A 1910   178   298   224   196   264   234   292   258   276   368
+130102A 1920   236   314   288   392   430   286   264   184   164   142
+130102A 1930   146   162   274   220   170   286   292   336   170   244
+130102A 1940   386   214   230   248   198   134    86    76   136   148
+130102A 1950   106    80    62    52    78    80    56    76    36    36
+130102A 1960    56    38    32   370   522   484   418   316   414   488
+130102A 1970   380   372   508   400   400   432   332   374   356   354
+130102A 1980   370   328   506   430   410   428   368   432   260   196
+130102A 1990   132    78   100   200   122   170   170   154   164    72
+130102A 2000    38    72    46 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130102B.txt"
+Content-Disposition: attachment;
+	filename="130102B.txt"
+
+130102B 1897    22   122    32
+130102B 1900    38    30    34    50   112   112    82   130   120   142
+130102B 1910   106   140   254   128    88    94    58   142   148   132
+130102B 1920   148   158   196   230   226   236   256   290   336   282
+130102B 1930   160   176   170    98   146   236   258   136   176   142
+130102B 1940    80   158    82    96   144    82    88    76    64    82
+130102B 1950    60    70    50   102    64    62    42    56    46    68
+130102B 1960   290   586   558   430   410   298   322   378   236   404
+130102B 1970   414   336   430   484   314   368   424   472   364   272
+130102B 1980   328   304   396    50   432   220   224   230   180    72
+130102B 1990    44    92    74   114    80   102    86   108    92    66
+130102B 2000    24    44    44 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130103A.txt"
+Content-Disposition: attachment;
+	filename="130103A.txt"
+
+130103A 1930    52    72    58    74    30    38    54    28    30    14
+130103A 1940    18    26    14    16    14    24    24    20    14    14
+130103A 1950    36    16    18    22    18    24    38    64   116   178
+130103A 1960   256   344   302   252   262   242   204   204   160   248
+130103A 1970   132   132   100   122   106   168   182   156   252   140
+130103A 1980   228   290   188    88   116    74    64    56    46    86
+130103A 1990    32    66    36    36    42    40    48    30    54    54
+130103A 2000   136   186    92 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130103B.txt"
+Content-Disposition: attachment;
+	filename="130103B.txt"
+
+130103B 1938    30    40
+130103B 1940    40    28    30    32    24    30    34    42    40    38
+130103B 1950    18    14    12    12    24    38    36    34    34    32
+130103B 1960    26    66    96    66   288   310   356   298   314  1298
+130103B 1970   722   246   136   164   100   112    80   106   192    94
+130103B 1980   284   218   132   110    96    60    60    60    40    88
+130103B 1990    50    50   112    84   106   126   116    92    50    50
+130103B 2000   174   116    66 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130104A.txt"
+Content-Disposition: attachment;
+	filename="130104A.txt"
+
+130104A 1952    38    70    40    56    76    74    72    42
+130104A 1960    76   188   224   134   158   122    74   126   104    72
+130104A 1970    82    86    78   116   216   214   164   212   186   214
+130104A 1980   318   106    50   150   158   178   220   174   170   148
+130104A 1990   106   150   108   148   112    94    54   120   108    56
+130104A 2000   106   190   238 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130104B.txt"
+Content-Disposition: attachment;
+	filename="130104B.txt"
+
+130104B 1961   322   180   180   122   118    82   114   188   122
+130104B 1970   148   214   150   136    94   234   190   228   160   320
+130104B 1980   348    90    94   278   228   188   202   246   114   154
+130104B 1990   116   204   234   152    68    98    92   128   122   134
+130104B 2000   120   144    56 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130105A.txt"
+Content-Disposition: attachment;
+	filename="130105A.txt"
+
+130105A 1951    38    72    50    84    64   122   108   252   372
+130105A 1960   368   410   350   256   272   298   320   266   318   246
+130105A 1970   134   164   222   242   214   144   172   166   106   254
+130105A 1980   262   216   220   130   158   148   106   224   144   188
+130105A 1990   220   126   188   104    56   106    54    46    48    88
+130105A 2000   112   212   134 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130105B.txt"
+Content-Disposition: attachment;
+	filename="130105B.txt"
+
+130105B 1940    62    66    34    24    18    36    16    38    58    60
+130105B 1950    40    38    48    78   108    58    60    58    92   310
+130105B 1960   388   286   270   308   240   242   318   278   304   400
+130105B 1970   304   194   198   268   280   218   130   192   114    96
+130105B 1980   184   198   138   150   100   124    98    72    62    84
+130105B 1990    92   132   210   108   140   118   152    64   106    78
+130105B 2000   138   178    88 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130106A.txt"
+Content-Disposition: attachment;
+	filename="130106A.txt"
+
+130106A 1968   286   324
+130106A 1970   396   414   356   272   146    98   330   418   248   240
+130106A 1980   158   174   190   156    88    62    44    52   228   142
+130106A 1990   196   102   144    98    70   128   100    56    92    36
+130106A 2000    42   112    70 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130106B.txt"
+Content-Disposition: attachment;
+	filename="130106B.txt"
+
+130106B 1960    18    56    64    32    30    64    60    68   156   266
+130106B 1970   184   198   242   126   114    70   180   146   138   130
+130106B 1980    72    70    82    92    56    66    56    66    82   164
+130106B 1990   122    68    52    30    54    64    40    88    48    50
+130106B 2000    30    40    38 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130108A.txt"
+Content-Disposition: attachment;
+	filename="130108A.txt"
+
+130108A 1944   110   132   128   188    64    88
+130108A 1950    44    44    54    84    34    56    62    60    40    38
+130108A 1960    66   100    32    58    50    40    26    80    78    74
+130108A 1970    46    58   292   368   492   504   488   376   352   440
+130108A 1980   418   424   478   308   218   176   204   204   196   186
+130108A 1990   242   182    50    42    40    28    36    42    54    48
+130108A 2000    80   132   128 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130108B.txt"
+Content-Disposition: attachment;
+	filename="130108B.txt"
+
+130108B 1958    62   124
+130108B 1960    98   100   136    84   106    62   230   302   428   366
+130108B 1970   352   296   396   398   328   342   428   384   280   238
+130108B 1980   228   218   132   174   130    52    46    56    26    48
+130108B 1990    62    62    56    56    50    66    36    30    28    32
+130108B 2000    14    14    16 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130109A.txt"
+Content-Disposition: attachment;
+	filename="130109A.txt"
+
+130109A 1970    86    34    36    20    16    22     8    38    24    58
+130109A 1980    36   298   302   250   288   330   170   242   194   180
+130109A 1990   104    84    36    20    24   106    84    84    30    48
+130109A 2000    40    68    68 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130109B.txt"
+Content-Disposition: attachment;
+	filename="130109B.txt"
+
+130109B 1979   218
+130109B 1980   362   380   262   228   186   250   262   206   146   114
+130109B 1990    66    52    38    52   126    40    30    38   130    92
+130109B 2000   152   144    52 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130110A.txt"
+Content-Disposition: attachment;
+	filename="130110A.txt"
+
+130110A 1945    84    40    38    78    52
+130110A 1950    44    92    28    44   106    34    38    36    46    44
+130110A 1960    74   112   150    68   120   246   486   522   136   362
+130110A 1970   236   206   370   190   272   224   248   380   442   508
+130110A 1980   468   416   404   344   440   366   396   362   304    62
+130110A 1990   158   140   126   110   128    22    64    68    20    48
+130110A 2000    82    60    76 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130110B.txt"
+Content-Disposition: attachment;
+	filename="130110B.txt"
+
+130110B 1943    58   108    62    82   102   136    54
+130110B 1950   102    90    30    36    88    96    58    42    86    46
+130110B 1960    18    16    26    24    74    58    50   170   374   344
+130110B 1970   346   312   206   220   270   258   256   372   302   276
+130110B 1980   294   348   312   340   408   386   302   100    88    46
+130110B 1990    82    36    36    28    68    40    38    32    40    40
+130110B 2000    46    40    32 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130111A.txt"
+Content-Disposition: attachment;
+	filename="130111A.txt"
+
+130111A 1956   134   234   134   204
+130111A 1960   118   388   304   304   298   274   510   496   400   720
+130111A 1970   512   372   324   444   208   252   340   270   306   408
+130111A 1980   374   330   316   288   266   298   226   136   438   514
+130111A 1990   250   298   188   342   286   218   186   170    98    12
+130111A 2000   338   262   158 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130111B.txt"
+Content-Disposition: attachment;
+	filename="130111B.txt"
+
+130111B 1966   430   226   262   170
+130111B 1970   240   282   284   224   204   236   276   304   288   236
+130111B 1980   332   242   176   286    96   346   392   444   296   482
+130111B 1990   326   182   110   426   328   268   140   274   206   142
+130111B 2000   168   150    78 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130112A.txt"
+Content-Disposition: attachment;
+	filename="130112A.txt"
+
+130112A 1973   130   112   338   250   252   184   138
+130112A 1980   202   146   192   192   132    86    44    60    34    38
+130112A 1990    56    30   122   128    32    14    24    32    10    14
+130112A 2000    16    28    48 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130112B.txt"
+Content-Disposition: attachment;
+	filename="130112B.txt"
+
+130112B 1980   232    36    38   124   214   222   234   206   200   262
+130112B 1990   232    98    70    48    90    70    46    30    32   130
+130112B 2000   144    78    98 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130113A.txt"
+Content-Disposition: attachment;
+	filename="130113A.txt"
+
+130113A 1955    40    38   258   534   430
+130113A 1960   504   442   256   354   386   286   348   208   248   290
+130113A 1970    84   426   372   192   164   358   256   210   288   200
+130113A 1980   404   490   506   402   336   432   552   132   394   260
+130113A 1990   208   320   270   278   118   216   206   102    74    74
+130113A 2000   212   172   108 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130113B.txt"
+Content-Disposition: attachment;
+	filename="130113B.txt"
+
+130113B 1957   164   480   614
+130113B 1960   526   474   324   422   268   398   458   566   404   384
+130113B 1970   278   288   224   152   188   250   110   320   176   342
+130113B 1980   354   330    70   290   422   444   272   142   580   404
+130113B 1990   306   290   216   120   160   220   236    90   108    98
+130113B 2000   184   166    60 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130114A.txt"
+Content-Disposition: attachment;
+	filename="130114A.txt"
+
+130114A 1915   270   392   562   316   104
+130114A 1920    84    46    60    66    44    56    54    70    56    60
+130114A 1930    36   102    82    92    46    78    86    94    66    62
+130114A 1940    42    82    52    60    72    68    58    66    62    44
+130114A 1950    42    32    20    26    12    24     8    22    30    26
+130114A 1960    36    40    50   268   230   268   244   196    20   112
+130114A 1970    86    92    98    94   112   136    98    92    74    92
+130114A 1980    94    66    58    54    94    82    44    50    54    30
+130114A 1990    18    28    40    24    28    20    26    28    14    26
+130114A 2000    26    14    24 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232
+Content-Type: application/octet-stream;
+	name="130114B.txt"
+Content-Disposition: attachment;
+	filename="130114B.txt"
+
+130114B 1909   184
+130114B 1910   156   200   156   154   282   184   322   300   252    96
+130114B 1920   102    92    80    94   180   192   168   160   120   172
+130114B 1930   180   228   166   182   160   152   156   116   188    84
+130114B 1940   150   130   100   100   112   110   104   126   112    98
+130114B 1950    76    82    58    76    68    82    76    84    64    62
+130114B 1960    76   236   350   392   330   348    72    50   218   310
+130114B 1970   318   384   382   422   342   258   238   234   212   252
+130114B 1980   158   194   184   240   196   188   176   200   120    66
+130114B 1990    70   180   168   132   136    98   114    82   118   106
+130114B 2000    46   118    82 -9999
+
+------_=_NextPart_000_01C2F54D.A095C232--

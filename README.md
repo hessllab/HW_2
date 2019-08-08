@@ -1,7 +1,7 @@
 
-##HW_2: Pipe Problems  
+## HW_2: Pipe Problems  
 
-##### For problems 1-4, use `animals.txt` (in the `data-shell/data` folder)  
+#### For problems 1-4, use `animals.txt` (in the `data-shell/data` folder)  
 
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__
 
@@ -23,7 +23,7 @@ d.	`cut -d, -f 2 animals.txt | uniq -c`
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`\  
 
-##### For Remaining Problem, Use /tree_data  
+### For Remaining Problem, Use /tree_data  
 
 __Problem 5: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
 

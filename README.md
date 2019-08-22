@@ -37,3 +37,11 @@ Ex: 130101A.txt
 Morgan is only interested in the raw data (the tree ring measurement files [`.txt`] noted by the 7-character IDs above SSPPTTC). In addition, some of the files are too short and are therefore not usable and some files have data that are repeated. 
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
+
+#### To Submit
+1) Fork the repo
+2) Clone to your machine
+3) Create a new branch
+4) Edit this README.md file to add your answers.  Use code blocks for code.
+5) Commit changes.
+6) Submit a pull request on hessllab/HW_2

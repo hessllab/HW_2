@@ -1,5 +1,6 @@
 
 ## HW_2: Pipe Problems  
+This homework can be completed by editing this file with your answers.
 
 #### For problems 1-4, use `animals.txt` (in the `data-shell/data` folder)  
 
@@ -23,7 +24,7 @@ d.	`cut -d, -f 2 animals.txt | uniq -c`
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
-### For Remaining Problem, Use /tree_data  
+### For Remaining Problem, Use HW_2/tree_data  
 
 __Problem 5: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
 

@@ -6,11 +6,26 @@ This homework can be completed by editing this file with your answers.
 
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__
 
-`cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt`
+`cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
 Hint: build the pipeline up one command at a time to test your understanding.
 
-__Problem 2: For the file `animals.txt` from the previous exercise, what do the flags `-d` and `-f` do?  What is the final output of the following command?__  
+__Problem 2: For the file _animals.txt_ from the previous exercise, the command:
+`cut -d , -f 2 animals.txt` . 
+uses the `-d` flag to separate each line by comma, and the `-f` flag to print the second field in each line, to give the following output:
+```
+deer
+rabbit
+raccoon
+rabbit
+deer
+fox
+rabbit
+bear
+```
+What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)?
+
+What is the final output of the following command?__  
 `cut -d , -f 2 animals.txt` 
 
 __Problem 3: What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__ 

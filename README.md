@@ -12,7 +12,7 @@ Hint: build the pipeline up one command at a time to test your understanding.
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
-uses the `-d` flag to separate each line by comma, and the `-f` flag to print the second field in each line, to give the following output:
+uses the `-d` flag to separate each line by comma, and the `-f` flag to print the second field in each line, to give the following output:__
 ```
 deer
 rabbit

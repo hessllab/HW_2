@@ -23,10 +23,7 @@ fox
 rabbit
 bear
 ```
-What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)?
-
-What is the final output of the following command?__  
-`cut -d , -f 2 animals.txt` 
+What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
 __Problem 3: What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__ 
 

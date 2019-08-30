@@ -8,6 +8,12 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
+* Print the contents of `animals.txt`
+* Print the first 5 lines
+* Print lines 3-5
+* Print lines 3-5 in order by date
+* Write lines 3-5 in order by date to `final.txt`
+
 Hint: build the pipeline up one command at a time to test your understanding.
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
@@ -24,6 +30,8 @@ rabbit
 bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
+
+`cut -d, -f 2 animals.txt | sort | uniq`
 
 __Problem 3: What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__ 
 

@@ -25,9 +25,8 @@ bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
-__Problem 3: What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__ 
 
-__Problem 4: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
+__Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
 a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
 b.	`sort animals.txt | uniq -c`  
@@ -38,7 +37,7 @@ f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`
 
 ### For Remaining Problem, Use HW_2/tree_data  
 
-__Problem 5: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
+__Problem 4: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
 
 `SSPPTTC.txt`  
 S - site number  

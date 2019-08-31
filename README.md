@@ -14,12 +14,4 @@ cut -d , -f 2 animals.txt | sort | uniq -c
 
 __Problem 4: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
 
-``
-##NOTE: these are codes I have been trying to implement in one way or another. The first line is my most succesful line so far.
-
-wc -l *.txt | sort -n | tail -n 24
-
-| cut -c 1-7 *.tx
-
-cut -d , -f 1 *.txt
-``
+wc -l *.txt | sort -n | tail -n 25 | cut -c 10-16 | head -n 24

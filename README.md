@@ -7,7 +7,7 @@ We start with the original list of animals.txt, which is displayed chronological
 __Problem 2: What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)?__
 
 To the original command (cut -d , -f 2 animals.txt) you would add “| sort -n | uniq”
-
+ 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
 cut -d , -f 2 animals.txt | sort | uniq -c

@@ -30,13 +30,13 @@ __Answers__
 2012-11-06,rabbit,19
 2012-11-06,deer,2
 ```  
-`tail -n 3` will show the last 3 lines of the file created by the previous command. This means line 3, 4, and 5 of animals.txt.   
+`tail -n 3` will show the last 3 lines of the result of the previous command. This means line 3, 4, and 5 of animals.txt.   
 ```
 2012-11-05,raccoon,7
 2012-11-06,rabbit,19
 2012-11-06,deer,2
 ```  
-`sort > final.txt` will align the first column of the file in descending order and export the data into final.txt. The resulting file will have lines 3-5 of Animals.txt sorted by data (newest first).   
+`sort > final.txt` will align the first column of the file in descending order and export the data into a text file, that is named as final.txt. The resulting file will have lines 3-5 of Animals.txt sorted by date (newest first).   
 ```
 2012-11-06,rabbit,19
 2012-11-06,deer,2
@@ -90,6 +90,10 @@ Ex: 130101A.txt
 Morgan is only interested in the raw data (the tree ring measurement files [`.txt`] noted by the 7-character IDs above: SSPPTTC). In addition, some of the files are too short to use and some files have data that are repeated. 
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
+
+__Answer__  
+`wc -l *.txt | sort -r | head -n 25 | tail -n 24 | cut -c 7-13　> tree_ID.txt`  
+still editing  
 
 ### To Submit
 1) Fork the repo

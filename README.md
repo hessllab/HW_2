@@ -20,7 +20,7 @@ __Problem 2: For the file animals.txt from the previous exercise, the command: c
 What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__
 
 -------------
-2. `cut -d , -f 2 animals.txt | sort -r | uniq` ??
+2. `cut -d , -f 2 animals.txt | sort -r | uniq` 
 
 -------------
 
@@ -34,7 +34,7 @@ e.	`cut -d, -f 2 animals.txt | sort | uniq -c`
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
 -------------
-3. 
+3. e. `cut -d, -f 2 animals.txt | sort | uniq -c`
 
 -------------
 
@@ -55,7 +55,7 @@ Write a line of code that will create a text file containing a list of the uniqu
 
 -------------
 4. 
-ends in > TreeIDs.txt
+ends in > UniqueTreeIDs.txt
 -------------
 
 

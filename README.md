@@ -54,7 +54,7 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 
 -------------
-4. 
+4. `wc -l *.txt | sort -n | tail -n 25`
 ends in > UniqueTreeIDs.txt
 -------------
 

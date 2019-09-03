@@ -72,7 +72,7 @@ d.	`cut -d, -f 2 animals.txt | uniq -c`
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
-__Answer__
+__Answer__  
 e. `cut -d, -f 2 animals.txt | sort | uniq -c`
 
 

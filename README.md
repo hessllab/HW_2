@@ -1,14 +1,19 @@
 
-## HW_2: Pipe Problems  
-This homework can be completed by editing this file with your answers.
 
-#### For problems 1-4, use `animals.txt` (in the `data-shell/data` folder)  
+## HW_2: Pipe Problems  
+Zack Grzywacz
 
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
-Hint: build the pipeline up one command at a time to test your understanding.
+## Answer:
+```
+cat animals.txt #prints the entire animals.txt file, which consists of two columns
+| head -n 5 #prints the first five entries in animals.txt
+| tail -n 3 #takes the five entries produced from "head" and reduces it to the final 3 entries in that set
+| sort > final.txt # sorts the three entries in alphabetical order and prints them in a new file named final.txt
+```
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
@@ -25,17 +30,21 @@ bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
+## Answer:
+```
+cut -d, -f 2 animals.txt | sort | uniq #Sort puts the animals in alphabetical order so that animals of the  
+same name are adjacent. Then uniq removes the duplicates
+```
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
-a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
-b.	`sort animals.txt | uniq -c`  
-c.	`sort -t, -k2,2 animals.txt | uniq -c`  
-d.	`cut -d, -f 2 animals.txt | uniq -c`  
+## Answer:
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
-f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
-### For Remaining Problem, Use HW_2/tree_data  
+```
+cut -d, -f 2 animals.txt | sort | uniq -c #the tag -c for uniq prefixes each line with the number of  
+occurences. This produces the total count of each type of animal in the file
+```
 
 __Problem 4: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
 
@@ -50,10 +59,16 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 
-### To Submit
-1) Fork the repo
-2) Clone to your machine
-3) Create a new branch
-4) Edit this README.md file to add your answers.  Use code blocks for code.
-5) Commit changes.
-6) Submit a pull request on hessllab/HW_2
+## Answer:
+
+```
+wc -l *[ABC].txt | sort | tail -n 25 | head -n 24 | cut -c 7-17 | sort | uniq > unique_ID.txt
+# First, all files in the correct title format are listed along with the number of lines they   
+contain. Then, they are sorted by the number of lines they contain. Tail and head are used to   
+remove the files that contain fewer than 5 lines of data, as well as the "total" at the bottom of   
+the list. cut is used to remove the number of lines from the file names. Sort is used so that uniq  
+can remove any identical titles, as duplicates would be adjacent. The final list is then written to   
+unique_ID.txt
+#Note: On my windows machine, sort does not require -n to sort a list numerically. In fact, using -n   
+gives an error. You may need to add -n to sort a list numerically
+```

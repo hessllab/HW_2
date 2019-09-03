@@ -10,6 +10,8 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 Hint: build the pipeline up one command at a time to test your understanding.
 
+*Answer: The first part of the pipe `cat` is all the text found inside the file animals.txt. The command `head -n 5` retrieves the first five lines of the text that was already concatenated. `tail -n 3` reduces those five lines into the last three lines, which are sorted by the 
+
 __Problem 2: For the file `animals.txt` from the previous exercise, what do the flags `-d` and `-f` do?  What is the final output of the following command?__  
 `cut -d , -f 2 animals.txt` 
 

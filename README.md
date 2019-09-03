@@ -10,6 +10,40 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 Hint: build the pipeline up one command at a time to test your understanding.
 
+__Answers__  
+`cat animals.txt` will show all the content of animals.txt.  
+```
+2012-11-05,deer,5
+2012-11-05,rabbit,22
+2012-11-05,raccoon,7
+2012-11-06,rabbit,19
+2012-11-06,deer,2
+2012-11-06,fox,4
+2012-11-07,rabbit,16
+2012-11-07,bear,1
+```  
+`head -n 5` will show the top five lines of the text file.  
+```
+2012-11-05,deer,5
+2012-11-05,rabbit,22
+2012-11-05,raccoon,7
+2012-11-06,rabbit,19
+2012-11-06,deer,2
+```  
+`tail -n 3` will show the last 3 lines of the file created by the previous command. This means line 3, 4, and 5 of animals.txt.   
+```
+2012-11-05,raccoon,7
+2012-11-06,rabbit,19
+2012-11-06,deer,2
+```  
+`sort > final.txt` will align the first column of the file in descending order and export the data into final.txt. The resulting file will have lines 3-5 of Animals.txt sorted by data (newest first).   
+```
+2012-11-06,rabbit,19
+2012-11-06,deer,2
+2012-11-05,raccoon,7
+```  
+
+
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
 uses the `-d` flag to separate each line by comma, and the `-f` flag to print the second field in each line, to give the following output:__
@@ -25,6 +59,9 @@ bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
+__Answer__  
+`|sort | uniq`  
+
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
@@ -34,6 +71,10 @@ c.	`sort -t, -k2,2 animals.txt | uniq -c`
 d.	`cut -d, -f 2 animals.txt | uniq -c`  
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
+
+__Answer__
+e. `cut -d, -f 2 animals.txt | sort | uniq -c`
+
 
 ### For Remaining Problem, Use HW_2/tree_data  
 

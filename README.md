@@ -92,8 +92,8 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 
 __Answer__  
-`wc -l *.txt | sort -r | head -n 25 | tail -n 24 | cut -c 7-13　> tree_ID.txt`  
-still editing  
+`wc -l *.txt | sort -r | head -n 25 | tail -n 24 | cut -c 7-13 > tree_ID.txt`  
+ 
 
 ### To Submit
 1) Fork the repo

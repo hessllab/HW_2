@@ -11,7 +11,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 Hint: build the pipeline up one command at a time to test your understanding.
 
 -------------
-1. The first command lists the content of the file. The contents are then piped to the next command, which separates the top five lines of the file. Then, of those five lines, the next command keeps the bottom three. The three lines are then sorted (alphabetically) and pushed to a new text file. 
+1. The first command lists the content of the file. The contents are then piped to the next command, which separates the top five lines of the file. Then, of those five lines, the next command keeps the bottom three. The three lines are then sorted and pushed to a new text file. 
 
 -------------
 

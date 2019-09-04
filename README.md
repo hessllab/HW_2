@@ -10,7 +10,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 Hint: build the pipeline up one command at a time to test your understanding.
  ```
- echo $grn cat animals.txt displays the contents of the text file, head -n 5 prints the first 5 items of the text file and tail -n 3 prints the last 3 items from that list, and sort > final.txt sorts those 3 contents and redirects them to final.txt. $white
+ cat animals.txt displays the contents of the text file, head -n 5 prints the first 5 items of the text file and tail -n 3 prints the last 3 items from that list, and sort > final.txt sorts those 3 contents and redirects them to final.txt. 
 ```
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 

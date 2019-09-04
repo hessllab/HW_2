@@ -9,9 +9,9 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
 Hint: build the pipeline up one command at a time to test your understanding.
- #cat animals.txt displays the contents of the text file, head -n 5 prints the first 5 items of the text file and tail -n 3 prints the 
-    last 3 items from that list, and sort > final.txt sorts those 3 contents and redirects them to final.txt.
-
+ ```
+ echo $grn cat animals.txt displays the contents of the text file, head -n 5 prints the first 5 items of the text file and tail -n 3 prints the last 3 items from that list, and sort > final.txt sorts those 3 contents and redirects them to final.txt. $white
+```
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
 uses the `-d` flag to separate each line by comma, and the `-f` flag to print the second field in each line, to give the following output:__

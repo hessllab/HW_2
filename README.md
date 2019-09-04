@@ -39,6 +39,8 @@ d.	`cut -d, -f 2 animals.txt | uniq -c`
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
+Answer is E?
+
 ### For Remaining Problem, Use HW_2/tree_data  
 
 __Problem 4: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__

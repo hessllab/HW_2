@@ -74,7 +74,7 @@ e.	`cut -d, -f 2 animals.txt | sort | uniq -c`
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
 __Answer__  
-e. `cut -d, -f 2 animals.txt | sort | uniq -c`
+e. `cut -d, -f 2 animals.txt | sort | uniq -c`  
 #`cut -d, -f 2 animals.txt` will extract the second column of animals.txt, and `sort` will align these animals' name alphabetically. Then, `uniq -c` will count the number of duplicated occurrences of the data file.  
 
 

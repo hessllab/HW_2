@@ -8,6 +8,8 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
+The first line of this pipe categorizes the files that are in animals.txt. The second part of this pipe lists the first five files in animals.txt. Then the third part of the pipe takes the last 3 files from the first five files that were listed from the head command. Then the last part of the pipe sorted the files by date? reported by the third part of the pipe into a new text file final.txt.
+
 Hint: build the pipeline up one command at a time to test your understanding.
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:

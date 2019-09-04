@@ -27,7 +27,7 @@ bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
-*Answer: The line of code that would solve that task is the following: 
+*Answer: The line of code that would solve that task is the following:* 
 ` cut -d , -f 2 animals.txt | sort | uniq` 
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
@@ -39,7 +39,7 @@ d.	`cut -d, -f 2 animals.txt | uniq -c`
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
-*Answer: option e. If I want to show the data ordered an extra `sort` will be handy.  
+*Answer: option e. If I want to show the data ordered an extra `sort` will be handy.*  
 ```cut -d , -f 2 animals.txt | sort | uniq -c | sort
       1 bear
       1 fox
@@ -63,6 +63,10 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 
+*Answer: This line of code counts the lines of the specific files that we need, then it sorts them based on the amount of lines each files has, following, it get rid of the files that have less than 5 lines, and the "total" line. Finally, the last command cuts to the exact characters that we need. * 
+```
+wc -l *.txt | sort -r | head -n 25 | tail -n 24 | cut -c 6-13
+```
 ### To Submit
 1) Fork the repo
 2) Clone to your machine

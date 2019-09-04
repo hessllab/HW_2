@@ -12,7 +12,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 cat animals.txt #prints the entire animals.txt file, which consists of two columns
 | head -n 5 #prints the first five entries in animals.txt
 | tail -n 3 #takes the five entries produced from "head" and reduces it to the final 3 entries in that set
-| sort > final.txt # sorts the three entries in alphabetical order and prints them in a new file named final.txt
+| sort > final.txt # sorts the three entries in alphabetical order (even though they begin with numbers) and prints them in a new file named final.txt
 ```
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
@@ -62,13 +62,11 @@ Write a line of code that will create a text file containing a list of the uniqu
 ## Answer:
 
 ```
-wc -l *[ABC].txt | sort | tail -n 25 | head -n 24 | cut -c 7-17 | sort | uniq > unique_ID.txt
+wc -l *[ABC].txt | sort -n | tail -n 25 | head -n 24 | cut -c 7-17 | sort -n | uniq > unique_ID.txt
 # First, all files in the correct title format are listed along with the number of lines they   
 contain. Then, they are sorted by the number of lines they contain. Tail and head are used to   
 remove the files that contain fewer than 5 lines of data, as well as the "total" at the bottom of   
 the list. cut is used to remove the number of lines from the file names. Sort is used so that uniq  
 can remove any identical titles, as duplicates would be adjacent. The final list is then written to   
 unique_ID.txt
-#Note: On my windows machine, sort does not require -n to sort a list numerically. In fact, using -n   
-gives an error. You may need to add -n to sort a list numerically
 ```

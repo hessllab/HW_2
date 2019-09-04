@@ -7,7 +7,7 @@ This homework can be completed by editing this file with your answers.
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
-
+`cat animals.txt` reads the content of the text file and passes it to the `head -n 5` which in turn returns the first 5 lines of the text file. These 5 lines are then passed to the `tail -n 3` which then returns the last 3 lines. These 3 lines are then sorted and appended to a text file called `final.txt`. if this text file is not present, it creates a new file and then writes the 3 lines into it.
 Hint: build the pipeline up one command at a time to test your understanding.
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
@@ -25,15 +25,11 @@ bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
+`cut -d , -f 2 animals.txt | sort | uniq`
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
-
-a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
-b.	`sort animals.txt | uniq -c`  
-c.	`sort -t, -k2,2 animals.txt | uniq -c`  
-d.	`cut -d, -f 2 animals.txt | uniq -c`  
-e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
-f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
+ 
+e.	`cut -d, -f 2 animals.txt | sort | uniq -c`   
 
 ### For Remaining Problem, Use HW_2/tree_data  
 

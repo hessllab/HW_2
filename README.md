@@ -31,18 +31,18 @@ bear
 ```
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
-`cut -d, -f 2 animals.txt | sort | uniq`
-
 __Problem 3: What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__ 
+
+`cut -d, -f 2 animals.txt | sort | uniq`
 
 __Problem 4: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
-a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
+~~a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
 b.	`sort animals.txt | uniq -c`  
 c.	`sort -t, -k2,2 animals.txt | uniq -c`  
-d.	`cut -d, -f 2 animals.txt | uniq -c`  
-e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
-f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
+d.	`cut -d, -f 2 animals.txt | uniq -c`~~  
+e.	__`cut -d, -f 2 animals.txt | sort | uniq -c`__  
+~~f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`~~  
 
 ### For Remaining Problem, Use HW_2/tree_data  
 

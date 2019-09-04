@@ -8,7 +8,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
-Hint: build the pipeline up one command at a time to test your understanding.
+**ANSWER:** Every line of animals.txt is called, then first five lines from the previous call are produced, then last 3 lines from the previous call, and finally the contents from the previous command are sorted first by date, then by animal name
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
@@ -23,7 +23,7 @@ fox
 rabbit
 bear
 ```
-What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
+**ANSWER:** First sort the list by alphabetical order, then use the uniq keyword to remove side-by-side duplicates. The final pipeline: cut -d, -f 2 animals.txt | sort | uniq
 
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
@@ -34,6 +34,8 @@ c.	`sort -t, -k2,2 animals.txt | uniq -c`
 d.	`cut -d, -f 2 animals.txt | uniq -c`  
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
+
+**ANSWER:** f. cut -d, -f 2 animals.txt | sort | uniq -c | wc -l
 
 ### For Remaining Problem, Use HW_2/tree_data  
 
@@ -49,6 +51,8 @@ Ex: 130101A.txt
 Morgan is only interested in the raw data (the tree ring measurement files [`.txt`] noted by the 7-character IDs above: SSPPTTC). In addition, some of the files are too short to use and some files have data that are repeated. 
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
+
+**ANSWER:** wc *.txt | sort | uniq | head -n 30 | tail -n 24 > textfiles.txt | cut -c 18-25 textfiles.txt
 
 ### To Submit
 1) Fork the repo

@@ -22,7 +22,7 @@ __Answers__
 2012-11-07,rabbit,16
 2012-11-07,bear,1
 ```  
-`head -n 5` will show the top five lines of the text file.  
+`head -n 5` will show the first five lines of the text file.  
 ```
 2012-11-05,deer,5
 2012-11-05,rabbit,22
@@ -30,13 +30,13 @@ __Answers__
 2012-11-06,rabbit,19
 2012-11-06,deer,2
 ```  
-`tail -n 3` will show the last 3 lines of the result of the previous command. This means line 3, 4, and 5 of animals.txt.   
+`tail -n 3` will show the last 3 lines of the result of previous command. This means line 3, 4, and 5 of animals.txt.   
 ```
 2012-11-05,raccoon,7
 2012-11-06,rabbit,19
 2012-11-06,deer,2
 ```  
-`sort > final.txt` will align the first column of the file in descending order and export the data into a text file, that is named as final.txt. The resulting file will have lines 3-5 of Animals.txt sorted by date (newest first).   
+`sort > final.txt` will align the first column of the file in descending order and export the data into a text file, which is named as final.txt. The resulting file will have lines 3-5 of animals.txt sorted by date (newest first).   
 ```
 2012-11-06,rabbit,19
 2012-11-06,deer,2
@@ -60,7 +60,7 @@ bear
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
 __Answer__  
-`|sort | uniq`  
+`|sort | uniq`  ##`sort` will align duplicated data adjacent to each other, and `uniq` will delete all duplicated adjacent data.
 
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__

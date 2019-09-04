@@ -10,7 +10,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 Hint: build the pipeline up one command at a time to test your understanding.
  ```
- cat animals.txt displays the contents of the text file, head -n 5 prints the first 5 items of the text file and tail -n 3 prints the last 3 items from that list, and sort > final.txt sorts those 3 contents and redirects them to final.txt. 
+ This code displays the contents of the text file, prints the first 5 items of the text file and then prints the last 3 items from that list, and sorts those 3 contents and redirects them to final.txt to display them. 
 ```
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
@@ -30,12 +30,9 @@ What other command(s) could be added to this in a pipeline to find out what anim
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
-a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
-b.	`sort animals.txt | uniq -c`  
-c.	`sort -t, -k2,2 animals.txt | uniq -c`  
+  
 d.	`cut -d, -f 2 animals.txt | uniq -c`  
-e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
-f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
+
 
 ### For Remaining Problem, Use HW_2/tree_data  
 

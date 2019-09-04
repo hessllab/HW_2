@@ -7,6 +7,7 @@ This homework can be completed by editing this file with your answers.
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
+
 `cat animals.txt` reads the content of the text file and passes it to the `head -n 5` which in turn returns the first 5 lines of the text file. These 5 lines are then passed to the `tail -n 3` which then returns the last 3 lines. These 3 lines are then sorted and appended to a text file called `final.txt`. if this text file is not present, it creates a new file and then writes the 3 lines into it.
 Hint: build the pipeline up one command at a time to test your understanding.
 

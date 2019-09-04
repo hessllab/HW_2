@@ -3,7 +3,7 @@
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__      cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt
 
 ``
-We start with the original list of animals.txt, which is displayed chronologically by using cat. This list is piped, and the top five samples are kept and piped again. At this point those bottom three samples are selected. These final samples are then ordered reverse chronologically with the most recent on top and the oldest on bottom and a final.txt file is created to display the results.
+We start with the original list of animals.txt, which is displayed chronologically by using cat. This list is piped, and the top five samples are kept and piped again. At this point those bottom three samples are selected and piped again. These final samples are then ordered reverse chronologically with the most recent on top and the oldest on bottom and a final.txt file is created to display the results.
 ``
 
 __Problem 2: What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)?__

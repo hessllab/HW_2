@@ -1,4 +1,4 @@
-
+ 
 ## HW_2: Pipe Problems  
 This homework can be completed by editing this file with your answers.
 
@@ -6,18 +6,31 @@ This homework can be completed by editing this file with your answers.
 
 __Problem 1: For the pipeline below, describe the text that passes through each of the pipes and into the final redirect (`final.txt`).__
 
-`cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt`
+`cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
 Hint: build the pipeline up one command at a time to test your understanding.
 
-*Answer: The first part of the pipe `cat` is all the text found inside the file animals.txt. The command `head -n 5` retrieves the first five lines of the text that was already concatenated. `tail -n 3` reduces those five lines into the last three lines. Those 
+*Answer: The first part of the pipe `cat` is all the text found inside the file animals.txt. The command `head -n 5` retrieves the first five lines of the text that was already concatenated. `tail -n 3` reduces those five lines into the last three lines. The last command `sort -n > final.txt` sorts the lines in the reverse order, so that the last dates are listed first, and then if sends those lines to a new text file named final.txt*
 
-__Problem 2: For the file `animals.txt` from the previous exercise, what do the flags `-d` and `-f` do?  What is the final output of the following command?__  
-`cut -d , -f 2 animals.txt` 
+__Problem 2: For the file _animals.txt_ from the previous exercise, the command:
+`cut -d , -f 2 animals.txt` . 
+uses the `-d` flag to separate each line by comma, and the `-f` flag to print the second field in each line, to give the following output:__
+```
+deer
+rabbit
+raccoon
+rabbit
+deer
+fox
+rabbit
+bear
+```
+What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
-__Problem 3: What other command(s) could be added to this in a pipeline to list the animals the file contains (without any duplicates)?__ 
+*Answer: The line of code that would solve that task is the following: 
+` cut -d , -f 2 animals.txt | sort | uniq` 
 
-__Problem 4: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
+__Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
 
 a.	`grep {deer, rabbit, raccoon, deer, fox, bear} animals.txt | wc -l`  
 b.	`sort animals.txt | uniq -c`  
@@ -26,9 +39,18 @@ d.	`cut -d, -f 2 animals.txt | uniq -c`
 e.	`cut -d, -f 2 animals.txt | sort | uniq -c`  
 f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`  
 
+*Answer: option e. If I want to show the data ordered an extra `sort` will be handy.  
+```cut -d , -f 2 animals.txt | sort | uniq -c | sort
+      1 bear
+      1 fox
+      1 raccoon
+      2 deer
+      3 rabbit
+```
+
 ### For Remaining Problem, Use HW_2/tree_data  
 
-__Problem 5: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
+__Problem 4: Morgan has a directory full of tree ring measurement files that he inherited from a previous student who was poorly organized. The files are organized by a 7-character ID:__
 
 `SSPPTTC.txt`  
 S - site number  

@@ -60,7 +60,8 @@ bear
 What other command(s) could be added to this in a pipeline to find out what animals the file contains (without any duplicates in their names)? 
 
 __Answer__  
-`|sort | uniq`  ##`sort` will align duplicated data adjacent to each other, and `uniq` will delete all duplicated adjacent data.
+`|sort | uniq`  
+#`sort` will align duplicated data, that are scattering in the file, adjacent to each other. And `uniq` will delete these adjacent duplications.
 
 
 __Problem 3: Assuming your current directory is `data-shell/data/`, write a command with pipes to produce a table that shows the total count of each type of animal in the file__
@@ -74,6 +75,7 @@ f.	`cut -d, -f 2 animals.txt | sort | uniq -c | wc -l`
 
 __Answer__  
 e. `cut -d, -f 2 animals.txt | sort | uniq -c`
+#`cut -d, -f 2 animals.txt` will extract the second column of animals.txt, and `sort` will align these animals' name alphabetically. Then, `uniq -c` will count the number of duplicated occurrences of the data file.  
 
 
 ### For Remaining Problem, Use HW_2/tree_data  

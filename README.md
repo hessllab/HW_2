@@ -50,6 +50,9 @@ Ex: 130101A.txt
 Morgan is only interested in the raw data (the tree ring measurement files [`.txt`] noted by the 7-character IDs above: SSPPTTC). In addition, some of the files are too short to use and some files have data that are repeated. 
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
+```
+wc -l *.txt | sort -n | tail -n 25 | head -n 24 | cut -c 6-13 > Tree_ID_List.txt
+```
 
 ### To Submit
 1) Fork the repo

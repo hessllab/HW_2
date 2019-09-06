@@ -8,7 +8,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
-The first line of this pipe categorizes the files that are in animals.txt. The second part of this pipe lists the first five files in animals.txt. Then the third part of the pipe takes the last 3 files from the first five files that were listed from the head command. Then the last part of the pipe sorted the files reported by the third part of the pipe into a new text file named final.txt.
+The first line of this pipe categorizes the files that are in _animals.txt_. The second part of this pipe lists the first five files in _animals.txt_. Then the third part of the pipe takes the last 3 files from the first five files that were listed from the `head` command. Then the last part of the pipe sorted the files reported by the third part of the pipe into a new text file named _final.txt_.
 
 Hint: build the pipeline up one command at a time to test your understanding.
 
@@ -56,7 +56,7 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 
-`wc -l *.txt|sort|tail -25 > final.txt`
+`wc -l *.txt|sort|tail -25 > final.txt` #add a pipe with cut to eliminate the line count and .txt
 
 
 ### To Submit

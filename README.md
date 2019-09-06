@@ -70,3 +70,4 @@ the list. cut is used to remove the number of lines from the file names. Sort is
 can remove any identical titles, as duplicates would be adjacent. The final list is then written to   
 unique_ID.txt
 ```
+Nearly there!  Needs an additional cut to drop the .txt  could use '.' as the delimeter

@@ -8,7 +8,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 `cat animals.txt | head -n 5 | tail -n 3 | sort > final.txt`
 
-**ANSWER:** Every line of animals.txt is called, then first five lines from the previous call are produced, then last 3 lines from the previous call, and finally the contents from the previous command are sorted first by date, then by animal name
+**ANSWER:** Every line of animals.txt is called, then first five lines from the previous call are produced, then last 3 lines from the previous call, and the contents from the previous command are sorted first by date, then by animal name. Output is written to a file called....
 
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
@@ -52,7 +52,10 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 
-**ANSWER:** wc *.txt | sort | uniq | head -n 30 | tail -n 24 > textfiles.txt | cut -c 18-25 textfiles.txt
+**ANSWER:** wc *.txt | sort | uniq | head -n 30 | tail -n 24 > textfiles.txt | cut -c 18-25 textfiles.txt 
+##### Try re-ordering your pipes:
+wc -l *.txt | sort -n | tail -n 25 |
+Then cut, then write to file
 
 ### To Submit
 1) Fork the repo

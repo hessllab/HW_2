@@ -65,7 +65,7 @@ Write a line of code that will create a text file containing a list of the uniqu
 
 *Answer: This line of code counts the lines of the specific files that we need, then it sorts them based on the amount of lines each files has, following, it get rid of the files that have less than 5 lines, and the "total" line. Finally, the last command cuts to the exact characters that we need. * 
 ```
-wc -l *.txt | sort -r | head -n 25 | tail -n 24 | cut -c 6-13
+wc -l *.txt | sort -r | head -n 25 | tail -n 24 | cut -c 6-13 #this prints the line count and the first 4 chars of the filenum. Needs to be sent to text file as well.  Adjust the cut.
 ```
 ### To Submit
 1) Fork the repo

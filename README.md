@@ -23,3 +23,16 @@ __Problem 4: Morgan has a directory full of tree ring measurement files that he 
 ``
 wc -l *.txt | sort -n | tail -n 25 | cut -c 10-16 | head -n 24
 ``
+This produces:  
+
+```
+106A.tx
+106B.tx
+111B.tx
+228A.tx
+101A.tx
+104A.tx
+105A.tx
+```
+
+Adjust the cut.  Sort again and get the unique tree numbers and then add and additional cut -d to drop the .txt.  

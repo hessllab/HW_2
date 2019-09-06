@@ -10,7 +10,7 @@ __Problem 1: For the pipeline below, describe the text that passes through each 
 
 Hint: build the pipeline up one command at a time to test your understanding.
  ```
- This code displays the contents of the text file, prints the first 5 items of the text file and then prints the last 3 items from that list, and sorts those 3 contents and redirects them to final.txt to display them. 
+ This code displays the contents of the text file, prints the first 5 items of the text file and then prints the last 3 items from that list, and sorts those 3 contents and redirects them to final.txt where the output has been redirected to a text file. 
 ```
 __Problem 2: For the file _animals.txt_ from the previous exercise, the command:
 `cut -d , -f 2 animals.txt` . 
@@ -51,7 +51,7 @@ Morgan is only interested in the raw data (the tree ring measurement files [`.tx
 
 Write a line of code that will create a text file containing a list of the unique tree IDs (no repeats, no extensions) that have at least 5 lines of data. Build it up, one pipe at a time.
 ```
-wc -l *.txt | sort -n | tail -n 25 | head -n 24 | cut -c 6-13 > Tree_ID_List.txt
+wc -l *.txt | sort -n | tail -n 25 | head -n 24 | cut -c 6-13 > Tree_ID_List.txt #this provides chars 6-13 which is the count plus '1301'.  Adjust your cut pipe to fix.
 ```
 
 ### To Submit
